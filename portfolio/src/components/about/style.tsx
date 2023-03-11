@@ -8,12 +8,17 @@ export const Header =  styled.header`
 
 `
 
-export const Title = styled.h1``
+export const Title = styled.h1`
+    border: 1px solid yellow;
+    width: 830px;
+    margin: 0 auto;
+`
 
 export const NavBar = styled.nav`
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    padding: 40px;
 `
 
 export const List = styled.ul`
