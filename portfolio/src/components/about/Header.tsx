@@ -1,9 +1,14 @@
 import * as C from "./style";
 import Title from "./Title";
+import NavBar from "./NavBar";
+
 const Header = () =>{
     return(
         <C.Header>
-            <Title/>
+            <NavBar/>
+            <div>
+                <Title/>
+            </div>
         </C.Header>
     )
 }
