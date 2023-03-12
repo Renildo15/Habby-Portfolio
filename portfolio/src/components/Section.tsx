@@ -1,12 +1,14 @@
+import * as C from "./style";
+
 interface SectionProps {
     children: React.ReactNode
 }
 
 const Section = ({children}: SectionProps) => {
     return (
-        <section>
+        <C.Section>
             {children}
-        </section>
+        </C.Section>
     )
 }
 
