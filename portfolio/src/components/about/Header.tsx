@@ -1,14 +1,16 @@
 import * as C from "./style";
 import Title from "./Title";
 import NavBar from "./NavBar";
+import Button from "./Button";
 
 const Header = () =>{
     return(
         <C.Header>
             <NavBar/>
-            <div>
+            <C.HeaderContent>
                 <Title/>
-            </div>
+                <Button/>
+            </C.HeaderContent>
         </C.Header>
     )
 }

@@ -4,14 +4,23 @@ export const Header =  styled.header`
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    height: 80vh;
+
+`
+
+export const HeaderContent = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     height: 50vh;
 
 `
 
 export const Title = styled.h1`
-    border: 1px solid yellow;
     width: 830px;
     margin: 0 auto;
+    color: white;
 `
 
 export const NavBar = styled.nav`
@@ -36,6 +45,19 @@ export const ListItem = styled.li`
     color: #fff;
 
     &:hover{
-        color: #ff0
+        color: #65706F
     }
+`
+export const ButtonContainer = styled.div`
+    margin-top: 40px;
+
+`
+export const Link = styled.a``
+export const Button = styled.button`
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    cursor: pointer;
 `
