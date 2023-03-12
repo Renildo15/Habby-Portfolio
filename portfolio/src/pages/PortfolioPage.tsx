@@ -1,5 +1,5 @@
 import Container from "../components/container/Container";
-import Header from "../components/about/Header";
+import Header from "../components/header/Header";
 const PortfolioPage = () =>{
     return(
         <Container>

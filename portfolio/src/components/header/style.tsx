@@ -60,4 +60,10 @@ export const Button = styled.button`
     width: 200px;
     border-radius: 20px;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+
+    &:hover{
+        background-color: #232422;
+    }
 `
