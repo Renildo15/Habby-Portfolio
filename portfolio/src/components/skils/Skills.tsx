@@ -5,7 +5,7 @@ import * as C from "./style";
 import {DiReact} from "react-icons/di";
 import {DiHtml5} from "react-icons/di";
 import {DiCss3} from "react-icons/di";
-import {DiJsBadge} from "react-icons/di";
+import {DiJavascript} from "react-icons/di";
 import {DiNodejsSmall} from "react-icons/di";
 import {DiPython} from "react-icons/di";
 import {DiDjango} from "react-icons/di";
@@ -26,7 +26,7 @@ const Skills = () =>{
                     <DiCss3/>
                 </IconsDiv>
                 <IconsDiv skill="JavaScript">
-                    <DiJsBadge/>
+                    <DiJavascript/>
                 </IconsDiv>
                 <IconsDiv skill="NodeJS">
                     <DiNodejsSmall/>

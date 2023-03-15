@@ -9,7 +9,7 @@ const IconsDiv = ({children, skill}:IconsDivProps) =>{
     return(
         <C.IconsContent>
             {children}
-            {skill}
+            <span>{skill}</span>
         </C.IconsContent>
     )
 }
