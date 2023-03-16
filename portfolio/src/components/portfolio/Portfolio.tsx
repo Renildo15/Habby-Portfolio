@@ -49,30 +49,43 @@ const Portfolio = () => {
                 <Slider {...settings} autoplay={true} autoplaySpeed={2000}>
                     <C.SliderItem>
                         <C.SliderImg src={MangaCats} alt="mangacats" />
+                        <C.TitleProject>Manga Cats</C.TitleProject>
                     </C.SliderItem>
                     <C.SliderItem>
-                        <C.SliderImg src={NihongoGaido} alt="mangacats" />
+                        <C.SliderImg src={NihongoGaido} alt="nihongogaido" />
+                        <C.TitleProject>Nihongo Gaido</C.TitleProject>
                     </C.SliderItem>
                     <C.SliderItem>
-                        <C.SliderImg src={GestorLab} alt="mangacats" />
+                        <C.SliderImg src={GestorLab} alt="gestorlab" />
+                        <C.TitleProject>Gestor Lab</C.TitleProject>
                     </C.SliderItem>
                     <C.SliderItem>
-                        <C.SliderImg src={Learn} alt="mangacats" />
+                        <C.SliderImg src={Learn} alt="learn" />
+                        <C.TitleProject>Learn online from home</C.TitleProject>
                     </C.SliderItem>
                     <C.SliderItem>
-                        <img src={Music} alt="mangacats" />
+                        <C.SliderImg src={Music} alt="music" />
+                        <C.TitleProject>Music landing page</C.TitleProject>
                     </C.SliderItem>
                     <C.SliderItem>
-                        <C.SliderImg src={Netflix} alt="mangacats" />
+                        <C.SliderImg src={Netflix} alt="netflix" />
+                        <C.TitleProject>Netflix page clone</C.TitleProject>
                     </C.SliderItem>
                     <C.SliderItem>
                         <C.SliderImg src={WebDesign} alt="mangacats" />
+                        <C.TitleProject>Web design landing page</C.TitleProject>
                     </C.SliderItem>
                     <C.SliderItem>
-                        <C.SliderImg src={Biblioteca} alt="mangacats" />
+                        <C.SliderImg src={Biblioteca} alt="Toshokan" />
+                        <C.TitleProject>Biblioteca - Toshokan</C.TitleProject>
                     </C.SliderItem>
                 </Slider>
             </C.SliderContainer>
+            <C.LinkContainer>
+                <a href="https://github.com/Renildo15?tab=repositories" target="_blank" rel="noopener noreferrer">
+                    <span>View others project in Github</span>
+                </a>
+            </C.LinkContainer>
         </Section>
     )
 }
