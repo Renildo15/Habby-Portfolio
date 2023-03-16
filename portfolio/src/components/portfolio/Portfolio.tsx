@@ -19,37 +19,57 @@ const settings = {
     infinite: true,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    responsive: [
+        {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true,
+            },
+        },
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                initialSlide: 1,
+                dots: true,
+            },
+        },
+    ],
 };
 const Portfolio = () => {
     return (
         <Section>
             <SubTitle subtitle="Portfolio"/>
             <C.SliderContainer>
-                <Slider {...settings}>
+                <Slider {...settings} autoplay={true} autoplaySpeed={2000}>
                     <C.SliderItem>
-                        <img src={MangaCats} alt="mangacats" />
+                        <C.SliderImg src={MangaCats} alt="mangacats" />
                     </C.SliderItem>
                     <C.SliderItem>
-                        <img src={NihongoGaido} alt="mangacats" />
+                        <C.SliderImg src={NihongoGaido} alt="mangacats" />
                     </C.SliderItem>
                     <C.SliderItem>
-                        <img src={GestorLab} alt="mangacats" />
+                        <C.SliderImg src={GestorLab} alt="mangacats" />
                     </C.SliderItem>
                     <C.SliderItem>
-                        <img src={Learn} alt="mangacats" />
+                        <C.SliderImg src={Learn} alt="mangacats" />
                     </C.SliderItem>
                     <C.SliderItem>
                         <img src={Music} alt="mangacats" />
                     </C.SliderItem>
                     <C.SliderItem>
-                        <img src={Netflix} alt="mangacats" />
+                        <C.SliderImg src={Netflix} alt="mangacats" />
                     </C.SliderItem>
                     <C.SliderItem>
-                        <img src={WebDesign} alt="mangacats" />
+                        <C.SliderImg src={WebDesign} alt="mangacats" />
                     </C.SliderItem>
                     <C.SliderItem>
-                        <img src={Biblioteca} alt="mangacats" />
+                        <C.SliderImg src={Biblioteca} alt="mangacats" />
                     </C.SliderItem>
                 </Slider>
             </C.SliderContainer>
