@@ -1,4 +1,4 @@
-import Section from "../Section"
+import Section from "../Section";
 import SubTitle from "../SubTitle";
 import IconsDiv from "./IconsDiv";
 import * as C from "./style";
@@ -10,6 +10,7 @@ import {DiNodejsSmall} from "react-icons/di";
 import {DiPython} from "react-icons/di";
 import {DiDjango} from "react-icons/di";
 import {DiBootstrap} from "react-icons/di";
+
 
 const Skills = () =>{
     return(
