@@ -9,13 +9,14 @@ export const IconsContainer = styled.div`
     width: 55%;
     margin: 0 auto;
     gap: 15px;
-    padding: 5px;
+    padding: 20px;
+    margin-bottom: 20px
 
 `
 export const IconsContent = styled.div`
     background-color: #65706F;
     width: 10rem;
-    height: 15rem;
+    height: 8rem;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -2,6 +2,14 @@ import styled from "styled-components";
 
 
 export const Section = styled.section`
+    height: 25rem;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    border-bottom: 1px solid white;
 `
 
 export const SubTitleContainer = styled.div`

@@ -4,6 +4,7 @@ import About from "../components/about/About";
 import Skills from "../components/skils/Skills";
 import Portfolio from "../components/portfolio/Portfolio";
 import Contacts from "../components/contacts/Contacts";
+import Footer from "../components/footer/Footer";
 
 const PortfolioPage = () =>{
     return(
@@ -13,6 +14,7 @@ const PortfolioPage = () =>{
             <Skills/>
             <Portfolio/>
             <Contacts/>
+            <Footer/>
         </Container>
     )
 }

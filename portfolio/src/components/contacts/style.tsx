@@ -5,14 +5,12 @@ export const ContactsContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
     gap: 30px;
     width: 80rem;
     margin: 0 auto;
 `
 
 export const ContactsContent = styled.div`
-    padding: 10px;
     width: 70rem;
 `
 
