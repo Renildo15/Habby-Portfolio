@@ -21,6 +21,11 @@ export const ContactsTitle = styled.div`
     align-items: center;
     justify-content: center;
     gap: 6px;
+
+    h4, svg{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
 `
 
 export const SocialMedia = styled.div`
@@ -28,4 +33,12 @@ export const SocialMedia = styled.div`
     align-items: center;
     justify-content: center;
     gap: 30px;
+
+    a svg{
+        font-size: 20px;
+        color: white;
+    }
+    a:hover svg {
+        transform: scale(1.2);
+    }
 `
