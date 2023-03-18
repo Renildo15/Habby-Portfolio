@@ -43,7 +43,7 @@ const settings = {
 };
 const Portfolio = () => {
     return (
-        <Section>
+        <Section id_section="portfolio">
             <SubTitle subtitle="Portfolio"/>
             <C.SliderContainer>
                 <Slider {...settings} autoplay={true} autoplaySpeed={2000}>

@@ -9,7 +9,7 @@ import SocialMedia from "./SocialMedia";
 
 const Contacts = () =>{
     return(
-        <Section>
+        <Section id_section="contacts">
             <SubTitle subtitle="Contacts"/>
             <ContactsContainer>
                 <ContactsContent icon={<MdEmail/>} contentTitle="Email" contentSpan="renildorabi22@gmail.com"/>

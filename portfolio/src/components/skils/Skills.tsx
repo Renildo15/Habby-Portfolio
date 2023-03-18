@@ -14,7 +14,7 @@ import {DiBootstrap} from "react-icons/di";
 
 const Skills = () =>{
     return(
-        <Section>
+        <Section id_section="skills">
             <SubTitle subtitle="Skills"/>
             <C.IconsContainer>
                 <IconsDiv skill="React">
