@@ -42,9 +42,11 @@ export const ListItem = styled.li`
     text-transform: uppercase;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
-    color: #fff;
-
-    &:hover{
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+    a:hover{
         color: #65706F
     }
 `

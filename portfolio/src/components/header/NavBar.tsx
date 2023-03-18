@@ -1,5 +1,5 @@
 import * as C from "./style";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 
 const NavBar = () => {
@@ -7,16 +7,16 @@ const NavBar = () => {
         <C.NavBar>
             <C.List>
                 <C.ListItem>
-                    <Link to="#about">About me</Link>
+                    <Link to="#about" smooth>About me</Link>
                 </C.ListItem>
                 <C.ListItem>
-                    <Link to="#skills">My skills</Link>
+                    <Link to="#skills" smooth>My skills</Link>
                 </C.ListItem>
                 <C.ListItem>
-                    <Link to = "#portfolio">Portfolio</Link>
+                    <Link to = "#portfolio" smooth>Portfolio</Link>
                 </C.ListItem>
                 <C.ListItem>
-                    <Link to = "#contacts">Contacts</Link>
+                    <Link to = "#contacts" smooth>Contacts</Link>
                 </C.ListItem>
             </C.List>
         </C.NavBar>
