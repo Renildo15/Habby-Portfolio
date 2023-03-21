@@ -45,4 +45,12 @@ export const SubTitle = styled.h2`
         background-color: #65706F; /* cor do underline */
         border-radius: 10px; /* arredondar as bordas do underline */
     }
+
+    @media screen and (max-width: 768px) {
+        font-size: 25px;
+    }
+
+    @media screen and (min-width: 1024px) {
+        font-size: 25px;
+    }
 `

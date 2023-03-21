@@ -11,7 +11,7 @@ const ContactsContent = ({contentTitle, contentSpan, icon }:ContactsContentProps
         <C.ContactsContent>
             <C.ContactsTitle>
                 {icon}
-                <h4>{contentTitle}</h4>
+                <h4>{contentTitle}:</h4>
             </C.ContactsTitle>
             {typeof contentSpan === "string" ? (
                 <span>

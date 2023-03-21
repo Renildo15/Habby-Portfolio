@@ -15,14 +15,8 @@ export const IconsContainer = styled.div`
     @media screen and (max-width: 768px) {
         width: 100%;
         padding: 40px;
-        border: 1px solid red;
     }
 
-    @media screen and (min-width: 1024px) {
-        width: 100%;
-        padding: 60px;
-        border: 1px solid red;
-    }
 
 `
 export const IconsContent = styled.div`
@@ -62,21 +56,7 @@ export const IconsContent = styled.div`
         > svg {
             width: 20px;
             height: 20px;
-        }
-
-        span {
-            font-size: 4px;
-        }
-    }
-
-  @media screen and (max-width: 1024px) {
-        width:50px;
-        height: 2rem;
-        border-radius: 0;
-
-        > svg {
-            width: 20px;
-            height: 20px;
+            margin-bottom: 0;
         }
 
         span {

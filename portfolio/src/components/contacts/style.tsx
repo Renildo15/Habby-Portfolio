@@ -8,6 +8,13 @@ export const ContactsContainer = styled.div`
     gap: 30px;
     width: 80rem;
     margin: 0 auto;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        width: 20rem;
+        gap: 10px;
+    }
+        
 `
 
 export const ContactsContent = styled.div`
@@ -23,6 +30,13 @@ export const ContactsTitle = styled.div`
     h4, svg{
         font-size: 20px;
         margin-bottom: 20px;
+    }
+
+    @media screen and (max-width: 768px) {
+        h4, svg{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
     }
 `
 
