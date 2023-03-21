@@ -7,7 +7,7 @@ export const Header =  styled.header`
     height: 80vh;
     @media screen and (max-width: 768px) {
         height: 50vh;
-        width: 60vh;
+        width: 59vh;
     }
 
 `
@@ -68,6 +68,9 @@ export const List = styled.ul`
 
     @media screen and (max-width: 768px) {
         gap: 10px;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
     }
 `
 
