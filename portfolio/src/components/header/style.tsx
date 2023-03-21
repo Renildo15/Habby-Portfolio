@@ -57,7 +57,6 @@ export const NavBar = styled.nav`
     @media screen and (max-width: 768px) {
         padding: 20px;
         justify-content: center;
-        border: 1px solid red;
     }
 `
 

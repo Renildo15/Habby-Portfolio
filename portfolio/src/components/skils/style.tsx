@@ -10,7 +10,19 @@ export const IconsContainer = styled.div`
     margin: 0 auto;
     gap: 15px;
     padding: 20px;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        padding: 40px;
+        border: 1px solid red;
+    }
+
+    @media screen and (min-width: 1024px) {
+        width: 100%;
+        padding: 60px;
+        border: 1px solid red;
+    }
 
 `
 export const IconsContent = styled.div`
@@ -40,5 +52,37 @@ export const IconsContent = styled.div`
     &:hover {
         transform: scale(1.1);
     }
+
+
+    @media screen and (max-width: 768px){
+        width:50px;
+        height: 2rem;
+        border-radius: 0;
+
+        > svg {
+            width: 20px;
+            height: 20px;
+        }
+
+        span {
+            font-size: 4px;
+        }
+    }
+
+  @media screen and (max-width: 1024px) {
+        width:50px;
+        height: 2rem;
+        border-radius: 0;
+
+        > svg {
+            width: 20px;
+            height: 20px;
+        }
+
+        span {
+            font-size: 4px;
+        }
+    }
+
 
 `

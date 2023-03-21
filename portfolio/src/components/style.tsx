@@ -8,12 +8,26 @@ export const Section = styled.section`
     justify-content: center;
     flex-direction: column;
     gap: 20px;
+
+    @media screen and (max-width: 768px) {
+        height: 75vh;
+        width: 59vh;
+    }
+    @media screen and (max-width: 1024px) {
+        height: 75vh;
+        width: 59vh;
+    }
 `
 
 export const SubTitleContainer = styled.div`
     width: 50%;
     margin: 0 auto;
     padding: 30px;
+
+    @media (max-width: 768px) {
+        width: 80%;
+        padding: 20px;
+    }
 `
 
 export const SubTitle = styled.h2`

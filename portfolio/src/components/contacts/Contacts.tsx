@@ -11,11 +11,11 @@ const Contacts = () =>{
     return(
         <Section id_section="contacts">
             <SubTitle subtitle="Contacts"/>
-            <ContactsContainer>
+            {/* <ContactsContainer>
                 <ContactsContent icon={<MdEmail/>} contentTitle="Email" contentSpan="renildorabi22@gmail.com"/>
                 <ContactsContent icon={<BsTelephoneFill/>} contentTitle="Telephone number" contentSpan="+55 (84) 9 9987-9087"/>
                 <ContactsContent icon={<IoShareSocialSharp/>} contentTitle="Social media" contentSpan={<SocialMedia/>}/>
-            </ContactsContainer>
+            </ContactsContainer> */}
         </Section>
     )
 }
