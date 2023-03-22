@@ -11,11 +11,8 @@ export const Section = styled.section`
 
     @media screen and (max-width: 768px) {
         height: 75vh;
-        width: 59vh;
-    }
-    @media screen and (max-width: 1024px) {
-        height: 75vh;
-        width: 59vh;
+        width: 56vh;
+        flex-direction: column;
     }
 `
 

@@ -21,16 +21,36 @@ export const SliderContainer = styled.div`
     .slick-dots {
         bottom: 0;
     }
+
+    @media only screen and (max-width: 769px) {
+        width: 80%;
+        height: 160px;
+        margin: 0 auto;
+    }
 `
 
 export const SliderItem = styled.div`
     padding: 10px;
+    @media screen and (max-width: 768px) {
+        padding: 0;
+        margin: 0 10px;
+    }
 
 `
 
-export const SliderImg = styled.img``
+export const SliderImg = styled.img`
+    @media screen and (max-width: 768px) {
+        width: 100px;
+        height: 100px
+    }
+`
 
-export const TitleProject = styled.h3``
+export const TitleProject = styled.h3`
+    font-size: 20px;
+    @media only screen and (max-width: 769px) {
+        font-size: 10px;
+    }
+`
 
 export const LinkContainer = styled.div`
     width: 70rem;
@@ -48,5 +68,13 @@ export const LinkContainer = styled.div`
         color: black;
         border-radius: 5px;
         padding: 4px;
+    }
+
+    @media only screen and (max-width: 769px) {
+        width: 50%;
+
+        a{
+            font-size: 15px;
+        }
     }
 `

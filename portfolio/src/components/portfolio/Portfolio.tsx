@@ -44,7 +44,7 @@ const settings = {
 const Portfolio = () => {
     return (
         <Section id_section="portfolio">
-            {/* <SubTitle subtitle="Portfolio"/>
+            <SubTitle subtitle="Portfolio"/>
             <C.SliderContainer>
                 <Slider {...settings} autoplay={true} autoplaySpeed={2000}>
                     <C.SliderItem>
@@ -85,7 +85,7 @@ const Portfolio = () => {
                 <a href="https://github.com/Renildo15?tab=repositories" target="_blank" rel="noopener noreferrer">
                     <span>View others project in Github</span>
                 </a>
-            </C.LinkContainer> */}
+            </C.LinkContainer>
         </Section>
     )
 }

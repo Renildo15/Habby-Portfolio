@@ -7,7 +7,7 @@ export const Header =  styled.header`
     height: 80vh;
     @media screen and (max-width: 768px) {
         height: 50vh;
-        width: 59vh;
+        width: 56vh;
     }
 
 `

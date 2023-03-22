@@ -13,7 +13,7 @@ const Contacts = () =>{
             <SubTitle subtitle="Contacts"/>
             <ContactsContainer>
                 <ContactsContent icon={<MdEmail/>} contentTitle="Email" contentSpan="renildorabi22@gmail.com"/>
-                <ContactsContent icon={<BsTelephoneFill/>} contentTitle="Telephone number" contentSpan="+55 (84) 9 9987-9087"/>
+                <ContactsContent icon={<BsTelephoneFill/>} contentTitle="Telephone number" contentSpan="+55 (84) 9 9927-6039"/>
                 <ContactsContent icon={<IoShareSocialSharp/>} contentTitle="Social media" contentSpan={<SocialMedia/>}/>
             </ContactsContainer>
         </Section>

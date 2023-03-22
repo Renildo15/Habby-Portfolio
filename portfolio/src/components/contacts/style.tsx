@@ -19,6 +19,10 @@ export const ContactsContainer = styled.div`
 
 export const ContactsContent = styled.div`
     width: 70rem;
+
+    @media screen and (max-width: 768px) {
+        width: 80%;
+    }
 `
 
 export const ContactsTitle = styled.div`
@@ -36,6 +40,7 @@ export const ContactsTitle = styled.div`
         h4, svg{
         font-size: 15px;
         margin-bottom: 10px;
+        
     }
     }
 `
